@@ -1,4 +1,4 @@
-// موضع كل شهاب ومدته بالثواني. التأخير بالسالب علشان يبقوا شغالين من أول ثانية
+// مكان كل شهاب بيعدي 
 export const SHOOTING_STARS = [
   { id: 1, top: "12%", left: "75%", width: 120, duration: 6, delay: -1 },
   { id: 2, top: "28%", left: "48%", width: 90, duration: 8, delay: -2.5 },

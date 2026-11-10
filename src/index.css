@@ -5,7 +5,7 @@
   font-family: "Roboto Mono", monospace;
 }
 
-/* موضع الماوس (من -1 لـ 1) - بيتحدث من الـ JS */
+/* مكان الماوس (من -1 لـ 1) - بيتحدث من الـ  */
 :root {
   --mx: 0;
   --my: 0;
@@ -14,16 +14,13 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: #05010f; 
+  background-color: #05010f;
   overflow: hidden;
 }
 
-
-
-/* 1) الخلفية: zoom + drift بطيء جدًا */
 .space-bg {
   position: fixed;
-  inset: -6%; 
+  inset: -6%;
   background: url("../assets/img/background.png") center / cover no-repeat;
   animation: drift 45s ease-in-out infinite alternate;
   translate: calc(var(--mx) * -8px) calc(var(--my) * -8px);
@@ -39,7 +36,6 @@ body {
     transform: scale(1.12) translate(-2%, -2%);
   }
 }
-
 
 .stars {
   position: fixed;
@@ -116,7 +112,6 @@ body {
   animation: shoot 6s ease-in infinite;
 }
 
-
 @keyframes shoot {
   0% {
     transform: translate(0, 0) rotate(-35deg);
@@ -140,7 +135,6 @@ header,
   position: relative;
   z-index: 2;
 }
-
 
 header {
   display: flex;
@@ -234,7 +228,6 @@ header {
   transform: rotate(90deg);
 }
 
-
 .earth-img {
   display: flex;
   align-items: center;
@@ -242,7 +235,6 @@ header {
   margin-top: 37px;
   position: relative;
 }
-
 
 .earth-img img {
   margin-bottom: -551px;
@@ -258,7 +250,6 @@ header {
   }
 }
 
-/* الكرة الأرضية الصغيرة: بتطفو */
 .earth-img::before {
   content: "";
   position: absolute;
@@ -273,7 +264,6 @@ header {
   animation: float 10s ease-in-out infinite reverse;
 }
 
-/* رائد الفضاء: أقرب طبقة فبيتحرك أكتر */
 .earth-img::after {
   content: "";
   position: absolute;
@@ -297,7 +287,6 @@ header {
     transform: translateY(-22px) rotate(2deg);
   }
 }
-
 
 .not-found {
   min-height: 100vh;
