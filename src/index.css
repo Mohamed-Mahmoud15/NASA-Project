@@ -145,7 +145,6 @@ header {
 }
 
 .logo {
-  font-family: "Syncopate-Bold";
   font-weight: 800;
   font-size: 21px;
   color: #fff;
@@ -155,7 +154,6 @@ header {
   align-items: center;
 }
 .nav ul li {
-  font-family: "Syncopate-Bold";
   font-weight: 800;
   font-size: 14px;
   color: #fff;
@@ -170,7 +168,6 @@ header {
   -webkit-text-fill-color: transparent;
 }
 .btn {
-  font-family: "Syncopate-Bold";
   font-weight: 800;
   font-size: 14px;
   color: #fff;
@@ -180,7 +177,6 @@ header {
   background: transparent;
 }
 .content h1 {
-  font-family: "Syncopate-Bold";
   font-weight: 800;
   font-size: 50px;
   color: #fff;
@@ -194,7 +190,6 @@ header {
   -webkit-text-fill-color: transparent;
 }
 .content p {
-  font-family: "Syncopate-Bold";
   font-weight: 800;
   font-size: 14px;
   color: #fff;

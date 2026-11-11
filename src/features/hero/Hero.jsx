@@ -13,11 +13,11 @@ function Hero() {
           Explore the secrets of space. NanoX helps you to check <br />
           space galactics.
         </p>
-        <div className="center-btn">
+        {/* <div className="center-btn">
           <button className="btn">
             <span> &gt; </span>Discover how it works
           </button>
-        </div>
+        </div> */}
         <div className="earth-img">
           <img src={earthImg} alt="" />
           <div className="globe" aria-hidden="true">
