@@ -1,4 +1,5 @@
 import earthImg from "../../../assets/img/earth.png";
+import globeImg from "../../../assets/img/globe.png";
 
 function Hero() {
   return (
@@ -19,6 +20,9 @@ function Hero() {
         </div>
         <div className="earth-img">
           <img src={earthImg} alt="" />
+          <div className="globe" aria-hidden="true">
+            <img src={globeImg} alt="" />
+          </div>
         </div>
       </div>
     </div>
